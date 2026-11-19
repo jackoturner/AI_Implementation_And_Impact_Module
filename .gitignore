@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+
+# Large/generated project files
+data/raw/
+data/processed/
+models/
+reports/figures/
+reports/tables/
+
+# Operating system files
+.DS_Store
