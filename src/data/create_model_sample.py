@@ -22,6 +22,7 @@ def main() -> None:
     reviews = pd.read_csv(
         SOURCE_DATA_PATH,
         usecols=["reviewText", "sentiment"],
+        keep_default_na=False,
     )
 
     model_sample, _ = train_test_split(
